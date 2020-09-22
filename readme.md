@@ -15,6 +15,14 @@ $ yarn add @shelf/aws-lambda-libreoffice
 **NOTE:** Since version 2.0.0 npm package no longer ships the 85 MB LibreOffice but relies upon [libreoffice-lambda-layer](https://github.com/shelfio/libreoffice-lambda-layer) instead.
 Follow the instructions on how to add a lambda layer in [that repo](https://github.com/shelfio/libreoffice-lambda-layer).
 
+## Custom lambda usage
+
+In `app.js` we have written lambda function that converts incoming file. You can test it with this command in docker container:
+
+```sh
+./app.sh
+```
+
 ## Usage
 
 ```js
